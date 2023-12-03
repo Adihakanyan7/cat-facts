@@ -1,0 +1,69 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2a6628;
+}
+
+/* Button Styles */
+button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #367B37;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Additional Styling */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 95%;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    button {
+        width: 150px;
+        padding: 8px;
+    }
+}

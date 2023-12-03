@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Facts</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Want to get a cat fact? Click here 👇</h1>
+        <form action="/get-fact" method="get">
+            <button type="submit">Get Fact</button>
+        </form>
+
+        <% if (locals.fact) { %>
+            <p><%= fact %></p>
+        <% } %>
+    </div>
+</body>
+</html>
